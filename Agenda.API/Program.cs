@@ -1,4 +1,5 @@
 using Agenda.API.Configuration;
+using Agenda.Application.Mappers;
 
 var builder = WebApplication.CreateBuilder(args);
 ConfigureServices(builder.Services, builder.Configuration);
@@ -23,4 +24,5 @@ void ConfigureServices(IServiceCollection services, ConfigurationManager configu
     services.AddEndpointsApiExplorer();
     services.AddSwaggerGen();
     services.AddDependencyInjection();
+    services.AddAutoMapper(typeof(DomainToResponseProfile), typeof(RequestToDomainProfile));
 }

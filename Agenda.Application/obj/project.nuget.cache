@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "HMWh35rQNhvw7yGZZS4TJRP+T618PRYp+RBdMrxrSxblfJKrIS7jFE+GVAG5zi04FMgrDMm9ertLfbr6wjW8SA==",
+  "dgSpecHash": "7foeOpR1Y1jcacoNmBORp+oJYddvdTstyV6VGMavb4ntD5aJTJ33Bij6GydSpOZ+LTcuxDS2t/K4pC5Uyr0+Qg==",
   "success": true,
   "projectFilePath": "D:\\Murilo\\LabLuby\\Agenda\\Agenda.Application\\Agenda.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Guilherme\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.8\\microsoft.entityframeworkcore.6.0.8.nupkg.sha512",
