@@ -2,11 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Agenda.Domain.Core;
 using Agenda.Domain.Domain;
 
 namespace Agenda.Domain
 {
-    public class Contact
+    public class Contact: Register
     {
         public string Name { get; set; }
         public int UserId { get; set; }

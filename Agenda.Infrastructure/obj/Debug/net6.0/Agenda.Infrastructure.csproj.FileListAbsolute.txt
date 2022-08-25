@@ -1,0 +1,15 @@
+D:\Murilo\LabLuby\Agenda\Agenda.Infrastructure\bin\Debug\net6.0\Agenda.Infrastructure.deps.json
+D:\Murilo\LabLuby\Agenda\Agenda.Infrastructure\bin\Debug\net6.0\Agenda.Infrastructure.dll
+D:\Murilo\LabLuby\Agenda\Agenda.Infrastructure\bin\Debug\net6.0\Agenda.Infrastructure.pdb
+D:\Murilo\LabLuby\Agenda\Agenda.Infrastructure\bin\Debug\net6.0\Agenda.Domain.dll
+D:\Murilo\LabLuby\Agenda\Agenda.Infrastructure\bin\Debug\net6.0\Agenda.Domain.pdb
+D:\Murilo\LabLuby\Agenda\Agenda.Infrastructure\obj\Debug\net6.0\Agenda.Infrastructure.csproj.AssemblyReference.cache
+D:\Murilo\LabLuby\Agenda\Agenda.Infrastructure\obj\Debug\net6.0\Agenda.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Murilo\LabLuby\Agenda\Agenda.Infrastructure\obj\Debug\net6.0\Agenda.Infrastructure.AssemblyInfoInputs.cache
+D:\Murilo\LabLuby\Agenda\Agenda.Infrastructure\obj\Debug\net6.0\Agenda.Infrastructure.AssemblyInfo.cs
+D:\Murilo\LabLuby\Agenda\Agenda.Infrastructure\obj\Debug\net6.0\Agenda.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Murilo\LabLuby\Agenda\Agenda.Infrastructure\obj\Debug\net6.0\Agenda.Infrastructure.csproj.CopyComplete
+D:\Murilo\LabLuby\Agenda\Agenda.Infrastructure\obj\Debug\net6.0\Agenda.Infrastructure.dll
+D:\Murilo\LabLuby\Agenda\Agenda.Infrastructure\obj\Debug\net6.0\refint\Agenda.Infrastructure.dll
+D:\Murilo\LabLuby\Agenda\Agenda.Infrastructure\obj\Debug\net6.0\Agenda.Infrastructure.pdb
+D:\Murilo\LabLuby\Agenda\Agenda.Infrastructure\obj\Debug\net6.0\ref\Agenda.Infrastructure.dll

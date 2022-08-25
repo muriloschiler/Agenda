@@ -9,10 +9,10 @@ namespace Agenda.Domain.Domain.Enumerations
     public class PhoneType: Enumeration
     {
         public static PhoneType Residencial = new PhoneType(1,nameof(Residencial));
-        public static PhoneType Cellphone = new PhoneType(1,nameof(Cellphone));
-        public static PhoneType Commercial = new PhoneType(1,nameof(Commercial));
+        public static PhoneType Cellphone = new PhoneType(2,nameof(Cellphone));
+        public static PhoneType Commercial = new PhoneType(3,nameof(Commercial));
 
         public PhoneType(){}
-        public PhoneType(int Id,string name) => (Id,Name) = (Id,name);
+        public PhoneType(int id,string name) => (Id,Name) = (id,name);
     }
 }

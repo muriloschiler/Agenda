@@ -1,0 +1,12 @@
+D:\Murilo\LabLuby\Agenda\Agenda.Domain\bin\Debug\net6.0\Agenda.Domain.deps.json
+D:\Murilo\LabLuby\Agenda\Agenda.Domain\bin\Debug\net6.0\Agenda.Domain.dll
+D:\Murilo\LabLuby\Agenda\Agenda.Domain\bin\Debug\net6.0\Agenda.Domain.pdb
+D:\Murilo\LabLuby\Agenda\Agenda.Domain\obj\Debug\net6.0\Agenda.Domain.csproj.AssemblyReference.cache
+D:\Murilo\LabLuby\Agenda\Agenda.Domain\obj\Debug\net6.0\Agenda.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Murilo\LabLuby\Agenda\Agenda.Domain\obj\Debug\net6.0\Agenda.Domain.AssemblyInfoInputs.cache
+D:\Murilo\LabLuby\Agenda\Agenda.Domain\obj\Debug\net6.0\Agenda.Domain.AssemblyInfo.cs
+D:\Murilo\LabLuby\Agenda\Agenda.Domain\obj\Debug\net6.0\Agenda.Domain.csproj.CoreCompileInputs.cache
+D:\Murilo\LabLuby\Agenda\Agenda.Domain\obj\Debug\net6.0\Agenda.Domain.dll
+D:\Murilo\LabLuby\Agenda\Agenda.Domain\obj\Debug\net6.0\refint\Agenda.Domain.dll
+D:\Murilo\LabLuby\Agenda\Agenda.Domain\obj\Debug\net6.0\Agenda.Domain.pdb
+D:\Murilo\LabLuby\Agenda\Agenda.Domain\obj\Debug\net6.0\ref\Agenda.Domain.dll
