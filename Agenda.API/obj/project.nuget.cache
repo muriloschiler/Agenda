@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "aI87HXVwn0pRs/MtP650gvboz//heNs89w3rbIaDd/8SHtgMMhXPCzMmOeL6zpC7v0hpyEVcn/deSO4gOZDSvA==",
+  "dgSpecHash": "vue7DybzvB1Uz71jYbr+hDR9oiWRRaILEpDIa7sTMm9luooqkhiz/DP89KluRptgh14Ud8PYN+0Cyca4sXBcew==",
   "success": true,
   "projectFilePath": "D:\\Murilo\\LabLuby\\Agenda\\Agenda.API\\Agenda.API.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Guilherme\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\Guilherme\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
