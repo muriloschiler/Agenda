@@ -8,6 +8,8 @@ using Agenda.Domain.Domain;
 using Agenda.Domain.Interfaces;
 using Agenda.Domain.Interfaces.Repositories;
 using AutoMapper;
+using FluentValidation;
+using FluentValidation.Results;
 using Microsoft.EntityFrameworkCore;
 
 namespace Agenda.Application.Services
@@ -17,12 +19,18 @@ namespace Agenda.Application.Services
         public IUserRepository _userRepository { get; set; }
         public IMapper _mapper { get; set; }
         public IUnityOfWork _unityOfWork { get; set; }
+        public IValidator<UserRequest> _userRequestValidator { get; set; }
 
-        public UserService(IUserRepository userRepository, IMapper mapper,IUnityOfWork unityOfWork)
+        public UserService(
+            IUserRepository userRepository,
+            IMapper mapper,
+            IUnityOfWork unityOfWork,
+            IValidator<UserRequest> userRequestValidator)
         {
             _userRepository = userRepository;
             _mapper = mapper;
             _unityOfWork=unityOfWork;
+            _userRequestValidator = userRequestValidator;
 
             _userRepository.AddPreQuery(query => query.Include(us=>us.UserRole));
         }
@@ -34,6 +42,18 @@ namespace Agenda.Application.Services
                 user = new User{
                     Name = "Exemplo vazio"
                 };
+            return _mapper.Map<User,UserResponse>(user);
+        }
+
+        public async Task<UserResponse> RegisterAsync(UserRequest userRequest)
+        {
+            ValidationResult validationResult =  await _userRequestValidator.ValidateAsync(userRequest);
+            if( ! validationResult.IsValid)
+                throw new BadRequestException(validationResult);
+                
+            User user = _mapper.Map<UserRequest,User>(userRequest);
+            User createdUser = await _userRepository.RegisterAsync(user);
+            await _unityOfWork.CommitChanges();
             return _mapper.Map<User,UserResponse>(user);
         }
     }

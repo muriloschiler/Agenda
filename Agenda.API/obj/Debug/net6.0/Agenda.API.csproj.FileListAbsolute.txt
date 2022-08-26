@@ -67,3 +67,7 @@ D:\Murilo\LabLuby\Agenda\Agenda.API\obj\Debug\net6.0\Agenda.API.genruntimeconfig
 D:\Murilo\LabLuby\Agenda\Agenda.API\obj\Debug\net6.0\ref\Agenda.API.dll
 D:\Murilo\LabLuby\Agenda\Agenda.API\bin\Debug\net6.0\AutoMapper.dll
 D:\Murilo\LabLuby\Agenda\Agenda.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Murilo\LabLuby\Agenda\Agenda.API\bin\Debug\net6.0\FluentValidation.dll
+D:\Murilo\LabLuby\Agenda\Agenda.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+D:\Murilo\LabLuby\Agenda\Agenda.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Murilo\LabLuby\Agenda\Agenda.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

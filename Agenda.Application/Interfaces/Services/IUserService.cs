@@ -9,5 +9,6 @@ namespace Agenda.Application.Interfaces.Services
     public interface IUserService
     {
         Task<UserResponse> GetById(int id);
+        Task<UserResponse> RegisterAsync(UserRequest userRequest);
     }
 }

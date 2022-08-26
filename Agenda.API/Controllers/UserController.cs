@@ -16,10 +16,15 @@ namespace Agenda.API.Controllers
             _userService=userService;
         }
 
+        [HttpPost]
+        public async Task<ActionResult<UserResponse>> RegisterAsync(UserRequest userRequest){
+            return Ok(await _userService.RegisterAsync(userRequest));
+        }
         [HttpGet("{id:int}")]
         public async Task<ActionResult<UserResponse>> GetById(int id){
             return Ok(await _userService.GetById(id));
         }
+
         
     }
 }

@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "7foeOpR1Y1jcacoNmBORp+oJYddvdTstyV6VGMavb4ntD5aJTJ33Bij6GydSpOZ+LTcuxDS2t/K4pC5Uyr0+Qg==",
+  "dgSpecHash": "C89wQ2WbtVwVJRHbUxPknL5BWdmdJoo/b97vSGTmeJ/IfrOE8ObNog2IIrcOGAKn0kiL7IgjEVdPQ4uobluvQQ==",
   "success": true,
   "projectFilePath": "D:\\Murilo\\LabLuby\\Agenda\\Agenda.Application\\Agenda.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Guilherme\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Guilherme\\.nuget\\packages\\fluentvalidation\\11.2.0\\fluentvalidation.11.2.0.nupkg.sha512",
+    "C:\\Users\\Guilherme\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.1\\fluentvalidation.aspnetcore.11.2.1.nupkg.sha512",
+    "C:\\Users\\Guilherme\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.0\\fluentvalidation.dependencyinjectionextensions.11.2.0.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
