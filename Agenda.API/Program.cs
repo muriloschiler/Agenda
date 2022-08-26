@@ -1,4 +1,5 @@
 using Agenda.API.Configuration;
+using Agenda.Application.Filters;
 using Agenda.Application.Mappers;
 using Microsoft.OpenApi.Models;
 
@@ -19,7 +20,10 @@ app.Run();
 
 
 void ConfigureServices(IServiceCollection services, ConfigurationManager configuration){
-     
+     services.AddControllers(opts =>
+    {
+        opts.Filters.Add(new ApplicationExceptionFilter());
+    });
     services.AddEndpointsApiExplorer();
     services.AddSwaggerGen();
     services.AddDependencyInjection();

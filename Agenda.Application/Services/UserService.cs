@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Agenda.Application.Exceptions;
 using Agenda.Application.Interfaces.Services;
 using Agenda.Application.ViewModels.User;
 using Agenda.Domain.Domain;
